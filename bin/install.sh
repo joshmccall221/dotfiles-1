@@ -598,6 +598,13 @@ main() {
 		install_syncthing
 	elif [[ $cmd == "vagrant" ]]; then
 		install_vagrant "$2"
+	elif [[ $cmd == "vip" ]]; then
+		sudo apt-get update;
+		sudo apt-get install xorg i3 -y;
+		sudo bash install.sh sources;
+		sudo bash install.sh wm;
+		install_vim;
+		install_scripts
 	else
 		usage
 	fi
