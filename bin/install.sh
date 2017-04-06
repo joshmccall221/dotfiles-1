@@ -559,6 +559,7 @@ usage() {
 	echo "  scripts                     - install scripts"
 	echo "  syncthing                   - install syncthing"
 	echo "  vagrant                     - install vagrant and virtualbox"
+	echo "  vip                         - install stuff like a boss"
 }
 
 main() {
