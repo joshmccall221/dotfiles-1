@@ -600,7 +600,7 @@ main() {
 	elif [[ $cmd == "vagrant" ]]; then
 		install_vagrant "$2"
 	elif [[ $cmd == "vip" ]]; then
-		echo 'sudo apt-get update; sudo apt-get install xorg i3 -y; sudo bash install.sh sources; sudo bash install.sh wm; bash install.sh vim; bash install.sh scripts'
+		echo 'sudo apt-get update; sudo apt-get install xorg i3 -y; sudo bash install.sh sources; sudo bash install.sh wm; bash install.sh dotfiles; bash install.sh vim; bash install.sh scripts'
 	else
 		usage
 	fi
